@@ -174,7 +174,7 @@ $ intro/first_script.py
 -   `None` possède une seule valeur `None`
 -   cf. [The standard type hierarchy](https://docs.python.org/3/reference/datamodel.html#the-standard-type-hierarchy)
 
-> Les exemples de cette section sont disponibles dans le notebook [`src/Python RefCard.ipynb`](src/Python RefCard.ipynb)
+> Les exemples de cette section sont disponibles dans le notebook [`src/Python RefCard.ipynb`](src/Python%20RefCard.ipynb)
 
 ## Principaux types prédéfinis 2/2
 -   Une *séquence* représente une collection ordonnée (indexée par des entiers)
