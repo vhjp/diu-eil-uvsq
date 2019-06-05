@@ -70,7 +70,7 @@
 -   Tests unitaires :
     [unittest](https://docs.python.org/3/library/unittest.html)
 
-## Lancer un interpréteur interactif
+## <a name="repl"<>/a>Lancer un interpréteur interactif
 -   Lancer le REPL (sous Linux)
 ```
 $ python3
@@ -96,7 +96,7 @@ In [1]: quit
 $
 ```
 
-## Lancer un notebook Jupiter
+## <a name="notebook"<>/a>Lancer un notebook Jupiter
 -   Lancement sur <http://localhost:8888/>
 ```
 $ jupyter-notebook
