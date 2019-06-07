@@ -29,7 +29,8 @@ Les plateformes comme [Github](https://github.com/) permettent d’héberger des
 ## Premiers pas en Python
 Dans cette section, vous utiliserez comme base le répertoire [`intro/src`](src) des sources du cours.
 N’hésitez pas à faire des modifications dans les exemples proposés.
-1.  Exécutez le script de la section *Exemple de script Python*.
+1.  Exécutez le script [`first_script.py`](first_script.py) de la section *Exemple de script Python*.
+    Vous pouvez également exécuter le script [`first_import.py`](first_import.py) pour mettre en évidence les différences entre exécution et importation.
 1.  Dans un notebook, ouvrez (ou reproduisez) et exécutez le fichier [`Python RefCard.ipynb`](src/Python%20RefCard.ipynb) qui reprend les exemples du cours.
 1.  Répondez aux questions suivantes
     1.  Dans la documentation du langage, où se trouve la documentation de la fonction `print` (pour Python 3.6, pour Python 2.7) ? Même question pour l’instruction `print` de Python 2.7.
@@ -39,3 +40,18 @@ N’hésitez pas à faire des modifications dans les exemples proposés.
     1.  Dans l’index [PyPI](https://pypi.python.org/pypi), combien de bibliothèques sont liées au thème *Games/Entertainment* pour la version 3.6 de Python ?
     1.  En Python 3, quelle est la différence entre les opérateurs `/` et `//` ?
     1.  En utilisant les listes en compréhension, générer les tables de multiplication jusqu’à 10.
+
+## Réalisation d'une leçon sur les bases du langage
+Le but est ici de réaliser un notebook présentant une notion de base du langage Python.
+Le notebook doit être conçu comme une progression permettant à un élève d'acquérir cette notion.
+Il contiendra des explications et des questions/exercices à réaliser.
+
+La liste ci-dessous propose quelques thèmes que vous pouvez aborder :
+    + **Fonctions** : passage des paramètres, paramètres par défaut, fonctions natives (print, range, ...)
+    + **Opérateurs** : opérateurs arithmétiques, concaténation
+    + **Structure d'un programme** : indentation, blocs d'instructions, importations
+    + **Structures de contrôle** : boucles, conditions
+    + **Typage** : typage fort mais dynamique (notion de type associée à l'objet et pas à l'identificateur), duck typing
+    + **Types de base** : int, float, str, bool
+    + **Variables** : référence (couple identificateur/objet référencé), mutable/non mutable, identité des objets
+
