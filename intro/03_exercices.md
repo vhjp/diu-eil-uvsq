@@ -17,8 +17,8 @@
     La distribution [Anaconda](https://www.continuum.io/anaconda-overview) est également disponible sous Mac OS X.
 
 1.  Vérifiez l’installation en reproduisant les instructions des sections
-    [Lancer un interpréteur interactif](Python%20RefCard.md#repl) et
-    [Lancer un notebook Jupyter](Python%20RefCard.md#notebook).
+    [Lancer un interpréteur interactif](02_python_refCard.md#repl) et
+    [Lancer un notebook Jupyter](02_python_refCard.md#notebook).
 
 ## Création d’un compte github
 Les plateformes comme [Github](https://github.com/) permettent d’héberger des projets en utilisant un système de gestion de versions ([git](https://git-scm.com/)).
@@ -31,9 +31,9 @@ Dans cette section, vous utiliserez comme base le répertoire [`intro/src`](src)
 N’hésitez pas à faire des modifications dans les exemples proposés.
 1.  Exécutez le script [`first_script.py`](first_script.py) de la section *Exemple de script Python*.
     Vous pouvez également exécuter le script [`first_import.py`](first_import.py) pour mettre en évidence les différences entre exécution et importation.
-1.  Dans un notebook, ouvrez (ou reproduisez) et exécutez le fichier [`Python RefCard.ipynb`](src/Python%20RefCard.ipynb) qui reprend les exemples du cours.
+1.  Dans un notebook, ouvrez (ou reproduisez) et exécutez le fichier [`Python RefCard.ipynb`](src/python_refCard.ipynb) qui reprend les exemples du cours.
 1.  Répondez aux questions suivantes
-    1.  Dans la documentation du langage, où se trouve la documentation de la fonction `print` (pour Python 3.6, pour Python 2.7) ? Même question pour l’instruction `print` de Python 2.7.
+    1.  Dans la documentation du langage, où se trouve la documentation de la fonction `print` (pour Python 3.7, pour Python 2.7) ? Même question pour l’instruction `print` de Python 2.7.
     1.  Où se trouve la documentation de l’instruction `assert` ?
     1.  Quelle convention utilise-t-on pour nommer les fonctions en Python ?
     1.  En dehors de la classe `str`, quels modules de la bibliothèque standard permettent de manipuler du texte ?
@@ -47,11 +47,10 @@ Le notebook doit être conçu comme une progression permettant à un élève d'a
 Il contiendra des explications et des questions/exercices à réaliser.
 
 La liste ci-dessous propose quelques thèmes que vous pouvez aborder :
-    + **Fonctions** : passage des paramètres, paramètres par défaut, fonctions natives (print, range, ...)
-    + **Opérateurs** : opérateurs arithmétiques, concaténation
-    + **Structure d'un programme** : indentation, blocs d'instructions, importations
-    + **Structures de contrôle** : boucles, conditions
-    + **Typage** : typage fort mais dynamique (notion de type associée à l'objet et pas à l'identificateur), duck typing
-    + **Types de base** : int, float, str, bool
-    + **Variables** : référence (couple identificateur/objet référencé), mutable/non mutable, identité des objets
-
+- **Fonctions** : passage des paramètres, paramètres par défaut, fonctions natives (print, range, ...)
+- **Opérateurs** : opérateurs arithmétiques, concaténation
+- **Structure d'un programme** : indentation, blocs d'instructions, importations
+- **Structures de contrôle** : boucles, conditions
+- **Typage** : typage fort mais dynamique (notion de type associée à l'objet et pas à l'identificateur), duck typing
+- **Types de base** : int, float, str, bool
+- **Variables** : référence (couple identificateur/objet référencé), mutable/non mutable, identité des objets

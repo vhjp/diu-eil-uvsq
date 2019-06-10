@@ -7,7 +7,7 @@
     -   système de typage implicite, dynamique, fort
     -   support de la programmation procédurale, OO, fonctionnelle (partiel)
 
-> En 2017, deux versions incompatibles de Python co-existent ([2.7 et 3.7](https://wiki.python.org/moin/Python2orPython3))
+> En 2019, deux versions incompatibles de Python co-existent ([2.7 et 3.7](https://wiki.python.org/moin/Python2orPython3))
 
 ## Quelques domaines d’application
 -   Langage de scripts
@@ -70,7 +70,7 @@
 -   Tests unitaires :
     [unittest](https://docs.python.org/3/library/unittest.html)
 
-## <a name="repl"<>/a>Lancer un interpréteur interactif
+## <a name="repl"></a>Lancer un interpréteur interactif
 -   Lancer le REPL (sous Linux)
 ```
 $ python3
@@ -96,7 +96,7 @@ In [1]: quit
 $
 ```
 
-## <a name="notebook"<>/a>Lancer un notebook Jupiter
+## <a name="notebook"></a>Lancer un notebook Jupiter
 -   Lancement sur <http://localhost:8888/>
 ```
 $ jupyter-notebook
